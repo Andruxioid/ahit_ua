@@ -100,7 +100,7 @@ Header_Camera_Adv = Просунута Камера
 Item_FieldOfView_Title = Поле Зору
 Item_FieldOfView_Item_TV = ТВ (80)
 Item_FieldOfView_Item_PC = Монітор ПК (90)
-Item_FieldOfView_Item_Custom = Користувальницький...
+Item_FieldOfView_Item_Custom = Користувальницьке...
 Item_FieldOfView_Item_Desc = Більші значення Поля Зору розширюють ваш кут огляду, у той час як менші значення його звужують. Більші значення Поля Зору рекомендовано, якщо ви знаходитеся близько до екрана, у той час як менші значення рекомендовано коли ви знаходитеся від нього далеко.
 
 Item_CameraAssist_Title = Допомога з Камерою
@@ -109,23 +109,23 @@ Item_CameraAssist_Desc = Якщо вмикнено, то цей параметр
 Item_CameraShake_Title = Тряска Камери
 Item_CameraShake_Desc = Вмикніть, якщо ви прагнете відчути справжній землетрус, позаяк ваш екран буде трішечки вібрувати. Вимкніть якщо вас захитує.
 
-Item_ControllerTopDown_Title = Top-Down Camera
-Item_ControllerTopDown_Desc = If enabled, the camera will zoom out to a bird's-eye view. If disabled, the camera will rotate freely.
-Item_ControllerTopDown_Item_None = None
-Item_ControllerTopDown_Item_Controller = Controller Only
-Item_ControllerTopDown_Item_Mouse = Mouse Only
-Item_ControllerTopDown_Item_All = Both
+Item_ControllerTopDown_Title = Камера "З Гори Вниз"
+Item_ControllerTopDown_Desc = Якщо вмикнено, камеру буде віддалено до висоти пташиного польоту. Якщо вимкнено, то камера буде вільно обертатися.
+Item_ControllerTopDown_Item_None = Відсутні
+Item_ControllerTopDown_Item_Controller = Тільки Контролер
+Item_ControllerTopDown_Item_Mouse = Тільки Миша
+Item_ControllerTopDown_Item_All = Обидва
 
-Item_CameraSmoothRotation_Title = Camera Smoothing
-Item_CameraSmoothRotation_Desc = Smoothly moves the camera rotation to the desired angle. This helps reduce jitteriness as well as motion sickness (especially for any third parties watching). Effect is most noticeable with a mouse. Off for raw input.
-Item_CameraSmoothRotation_Desc_Console = Smoothly moves the camera rotation to the desired angle. This helps reduce jitteriness as well as motion sickness (especially for any third parties watching).
-Item_CameraSmoothRotation_Item_VerySlow = Very Slow
-Item_CameraSmoothRotation_Item_Slow = Slow
-Item_CameraSmoothRotation_Item_Medium = Medium
-Item_CameraSmoothRotation_Item_Fast = Fast
-Item_CameraSmoothRotation_Item_VeryFast = Very Fast
-Item_CameraSmoothRotation_Item_Off = Off
-Item_CameraSmoothRotation_Item_Instant = Instant
+Item_CameraSmoothRotation_Title = Вирівнювання Камери
+Item_CameraSmoothRotation_Desc = Плавно повертає камеру до бажаного кута. Цей параметр допомагає зменшити дрижання та захитування (особливо для спостерігачів). Ефект найбільш всього помітно при використанні миші. Вимикніть якщо вам потрібне необроблене введення.
+Item_CameraSmoothRotation_Desc_Console = Плавно повертає камеру до бажаного кута. Цей параметр допомагає зменшити дрижання та захитування (особливо для спостерігачів).
+Item_CameraSmoothRotation_Item_VerySlow = Дуже Повільно
+Item_CameraSmoothRotation_Item_Slow = Повільно
+Item_CameraSmoothRotation_Item_Medium = Середньо
+Item_CameraSmoothRotation_Item_Fast = Швидко
+Item_CameraSmoothRotation_Item_VeryFast = Дуже Швидко
+Item_CameraSmoothRotation_Item_Off = Вимкнено
+Item_CameraSmoothRotation_Item_Instant = Постійне
 
 Item_CameraFocusDuration_Title = Camera Snap Speed
 Item_CameraFocusDuration_Desc = When you press the camera snap button, the camera moves behind you. This setting controls how fast that movement is.
@@ -345,47 +345,47 @@ Item_Adv_MaterialEffects_Desc = Allow screen effects to use higher quality effec
 Item_Adv_LensFlares_Title = Lens Flares
 Item_Adv_LensFlares_Desc = Sprites rendered on top of the environment to indicate strong light (such as the sun).
 
-Item_Adv_Decals_Title = Decals
-Item_Adv_Decals_Desc = Decals are 2D images projected onto a surface to make that surface appear more detailed (such as cracks, dirt or graffiti).
+Item_Adv_Decals_Title = Декалі
+Item_Adv_Decals_Desc = Декалі це двомірні зображення, що проектуються на поверхню задля створення відчуття більшої деталізації цих поверхноь (наприклад тріщини, бруд або графіті).
 
-Item_Adv_DynamicLights_Title = Dynamic Lights
-Item_Adv_DynamicLights_Desc = Real-time lighting effects, such as moving lights or explosions.
+Item_Adv_DynamicLights_Title = Динамічне Світло
+Item_Adv_DynamicLights_Desc = Ефекти світла у реальному часу, такі як взриви або рухомі джерела світла.
 
-Item_Adv_ConservativeShadowBounds_Title = Precise Shadow Bounds
-Item_Adv_ConservativeShadowBounds_Desc = If enabled, the game will try to more precisely trace where shadows land.
+Item_Adv_ConservativeShadowBounds_Title = Точні Края Тіней
+Item_Adv_ConservativeShadowBounds_Desc = Якщо вмикнено, то гра буде намагатися більш точно розраховувати положення тіней.
 
-Item_Adv_SeparateTranslucency_Title = Two-Layer Translucency
-Item_Adv_SeparateTranslucency_Desc = Translucency is performed before the Depth of Field rendering pass. As a result, a lot of translucent objects get blurred, even if they're right in front of you. Two-layer translucency allows those objects to render after the Depth of Field rendering pass.
+Item_Adv_SeparateTranslucency_Title = Двохшарова Напівпрозорість
+Item_Adv_SeparateTranslucency_Desc = Напівпрозорість розраховується перед прорахунком Глибини Різкості. Як результат, більша частина напівпрозорих об'єктів розмивається, навіть якщо вони розташовані прямо перед гравцем. Двошарова напівпрозорість дозволяє об'єктам прораховуватися після прорахунку Глибини Різкості.
 
-Item_Adv_Vignette_Title = Camera Vignette
-Item_Adv_Vignette_Desc = Adds a subtle black border around the screen.
+Item_Adv_Vignette_Title = Вінь'єтка Камери
+Item_Adv_Vignette_Desc = Накладає ледь помітну чорну обвудку по кутам екрана.
 
-Item_Adv_RigidBody_Title = Simulated World Physics
-Item_Adv_RigidBody_Desc = When enabled, debris and rigid bodies will be simulated via PhysX. Don't worry; PhysX will work just fine regardless of what graphics card you have.
+Item_Adv_RigidBody_Title = Фізична Симуляція Об'єктів
+Item_Adv_RigidBody_Desc = Якщо вмикнено, уламки та тверді тіла будуть симульовані за допомгою PhysX. Не хвилюйтеся; PhysX буде працювати незалежно від виробника вашої графічної карти.
 
-Item_Adv_SuperSampling_Title = Supersampling
-Item_Adv_SuperSampling_Desc = Upscales screen render.
+Item_Adv_SuperSampling_Title = Суперсемплінг
+Item_Adv_SuperSampling_Desc = Масштабує зображення на екрані.
 
-Item_Adv_PP_Downsample_Title = Post Processing Resolution
-Item_Adv_PP_Downsample_Desc = Downsampling post processing to improve performance.
+Item_Adv_PP_Downsample_Title = Постобробка Роздільності Дисплея
+Item_Adv_PP_Downsample_Desc = Погіршення якості постобробки задля покращення продуктивності.
 
-Header_Adv_Game = Game
-Item_Adv_PredictiveCamera_Title = Predictive Traced Camera
-Item_Adv_PredictiveCamera_Desc = Improves camera smoothing by tracing against nearby geometry.
+Header_Adv_Game = Гра
+Item_Adv_PredictiveCamera_Title = Передбачувана Траекторія Камери
+Item_Adv_PredictiveCamera_Desc = Покращує рух камери опираючись на геометрію поблизу.
 
 [systemsettings.input]
 Header_Input = Введення
 Header_Input_Adv = Введення (Просунене)
 
 Item_OnTheFlyController_Title = Автовибір Контролера
-Item_OnTheFlyController_Desc = Якщо ти граєш у гру для однієї особи та вмикнув це, активний контроллер заміниться на новий контролер, коли ти натиснеш на ньому кнопку.
+Item_OnTheFlyController_Desc = Якщо вмикнено під час одиночної гри, активний контролер буде автоматично замінено на новий при натисканні кнопки на новому контролері.
 
 Item_ManageDefinitions_Title = Керування Контролерами
 Item_ManageDefinitions_Title_Item = Керування
 Item_ManageDefinitions_Desc = Ми додали підтримку для декількох популярних контролерів, але якщо ви використовуєте непопулярний контролер, то вам буде необхідно налаштувати його тут.
 
 Item_MouseSensitivity_Title = Чутливість Миши
-Item_MouseSensitivity_Desc = Чим більше чутливість, тим більше рух миши впливає на гру.
+Item_MouseSensitivity_Desc = Чим більше чутливість, тим більше рух миші впливає на гру.
 
 Item_InvertCameraX_Controller_Title = Інвертувати Горизонтальну Камеру (Контролери)
 Item_InvertCameraX_Controller_Title_Console = Інвертувати Горизонтальну Камеру
@@ -399,9 +399,9 @@ Item_Rumble_Controller_Title = Вібрація
 Item_Rumble_Controller_Desc = Чи дозволити контролеру вібрувати під час деяких дій
 
 Item_InputAssist_Title = Допомога із Введенням
-Item_InputAssist_Desc = Гра буде намагатися поліпшити досвід використання введення, відкладуючи натискання, які було зроблено трішки раніше аніж потрібно, та намагатися запобігати випадковим двійним натисканням.
+Item_InputAssist_Desc = Гра буде намагатися поліпшити досвід використання введення, відкладаючи натискання, які було зроблено трішки раніше аніж потрібно, та намагатися запобігати випадковим двійним натисканням.
 
-Item_HoldBackToCancelDive_Title = Затиснути Назад, Щоб Скасувати Ривок
+Item_HoldBackToCancelDive_Title = Затисніть Назад, Щоб Скасувати Ривок
 Item_HoldBackToCancelDive_Desc = Затисніть Назад під час виконання ривка, щоб скасувати його
 
 Item_InputAllowEmote_Title = Кнопка Емоцій

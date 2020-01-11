@@ -9,12 +9,12 @@ divecancel = Під час їзди, щоб скасувати
 trigger_ability = Щоб використати [icon:activehat] здатність капелюха
 hat_swap = Змінити Капелюха
 umbrella_attack = Атакувати
-homingattack = У повітрі, щоб атакувати самонавідними снарядми
+homingattack = У повітрі, щоб атакувати самонавідними снарядами
 helper_ability_no_target = Поряд нічого цікавого...
 smooch = Щоб пустити повітряний поцілунок
 timestophat = Використай свого [icon:timestophat] , щоб зповільнити час навколо
 carry_too_much = Обережно! Чим більше ти тримаєш, тим більше хитаєшся!
-gp_emotewheel = взаємодіяти з іншими гравцями у онлайні
+gp_emotewheel = Взаємодіяти з іншими гравцями у онлайні
 
 drop_carry = Покласти
 throw_carry = Кинути
